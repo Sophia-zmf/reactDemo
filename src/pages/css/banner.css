@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #a5c926;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 15px;
+}
+.nav-top{
+    width: 100%;
+    height: 32px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+  
+}
+.nav-top-left,.nav-top-right{
+    display: flex;
+    align-items: center;
+  
+    height: 32px;
+}
+.nav-top-left span:first-child{
+    margin-right: 16px;
+}
+.nav-top-left span a{
+    color: #fff;
+}
+.nav-top-right a{
+    padding:5px;
+   
+    
+}
+.nav-top-right img{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.nav-bottom{
+    width: 100%;
+    height: 72px;
+    align-items: center;
+    background-color: #fff;
+    padding:0 15px
+    
+}
+.nav-bottom-left{
+    display: flex;
+    height: 72px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    margin:0 40px;
+}
+.nav-menu a{
+    color: #111111;
+    font-size: 14px;
+    padding:12px 18px;
+    text-decoration: none;
+}
+.nav-bottom-right{
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+.nav-bottom-right a{
+    color: #111111;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.nav-bottom-right .cart{
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #a5c926;
+    color:#fff
+}
+.nav-bottom-right  img{
+    margin: 0 10px;
+}
+/* banner.css */
+/* 其他原有样式保持不变 */
+
+/* 弹窗整体样式 */
+.cart-popup {
+    position: fixed;
+    top: 100px;
+    right: 36%;
+    width: 380px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 9999; /* 确保弹窗在最上层 */
+    overflow: hidden; /* 防止内容溢出圆角 */
+  }
+  
+  /* 弹窗头部：标题 + 关闭按钮 */
+  .cart-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #fafafa;
+  }
+  
+  .cart-popup-header h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* 关闭按钮样式 */
+  .cart-close-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+    transition: color 0.2s;
+  }
+  
+  .cart-close-btn:hover {
+    color: #333; /* hover 时加深颜色 */
+  }
+  
+  /* 弹窗内容区域 */
+  .cart-popup > div:not(.cart-popup-header) {
+    padding: 20px;
+  }
+  
+  /* 空购物车提示 */
+  .cart-empty {
+    color: #666;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+  }
+  
+  /* 商品项样式 */
+  .cart-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    
+  }
+  
+  .cart-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+  
+  .cart-item-info h3 {
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* 标题过长时省略 */
+  }
+  .cart-item-info a{
+    text-decoration: underline;
+    text-decoration-color: #fb416b;   
+  }
+  .cart-item-info input{
+    height: 48px;
+    width: 80px;
+    margin-bottom: 24px;
+    margin-left: 100px;
+    padding-left: 11px;
+    border: 2px solid #e5e5e5;
+    border-radius: 24px;
+    background-color: #f8f8f8;
+    outline: none; /* 去掉默认 outline */
+  }
+  .item-price {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 4px 0;
+  }
+  
+  .item-subtotal {
+    font-size: 14px;
+    color: #a5c926;
+    margin: 0;
+  }
+  
+  /* 总金额样式 */
+  .cart-total {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-total label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .cart-total span {
+    font-size: 18px;
+    color: #111;
+    font-weight: 600;
+  }
+  .cart-popup .err{
+    width: 90%;
+    padding: 10px !important;
+    margin:0 auto 10px;
+    border-radius: 24px;
+    
+    background-color: rgba(251, 65, 107, 0.1);
+  }

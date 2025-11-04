@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+.kb{
+    height: 440px;
+    margin-bottom: 64px;
+    border-radius: 12px;
+}
+.xq-le .lab{ 
+    /* margin-bottom: 8px; */
+    color: #111;
+    font-size: 12px;
+    font-weight: 600;
+}
+.xq-ri{
+    border: 0;
+    margin-top: 0;
+}
+.addW{
+    width: 305px;
+}
+.xq-ri h4{
+    margin-top: 0px;
+    margin-bottom: 28px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.xq-ri p{
+    color: #111;
+    font-size: 12px;
+    margin-bottom:5px;
+}
+.product-detail .product-details .xq-ri a{
+    color: #111;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+}
+.addwB{
+    margin-top: 48px;
+}
+.addwB h5{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.addwB .addB-a{
+    display: flex;
+}
+.addwB a {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.addwB a img{
+    width: 100%;
+    height: 100%;
+}
+.addwB .twitter{
+background-color: #2aa3f0;
+}
+.addwB .facebook{
+background-color: #3b5998;
+}
+.addwB .insta {
+background-color: #fb416b;
+}
+.addwB .pinterest {
+background-color: #bd081c;
+}
+.addwB .youtube {
+background-color: #fc0d1c;
+}
