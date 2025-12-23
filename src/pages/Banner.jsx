@@ -33,10 +33,8 @@ export default function Banner() {
         <div className="nav-top">
           <div className="container">
             <div className="nav-top-left">
-              <span>Call Us: +1 213 974-5898</span>
-              <span>
-                Email: <a href="#">toystore@template.com</a>
-              </span>
+              <span>ToyStore</span>
+              
             </div>
             <div className="nav-top-right">
               <a href="https://elasticthemes.com" target="_blank" class="social-link w-inline-block">

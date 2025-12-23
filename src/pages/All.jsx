@@ -1,5 +1,7 @@
 import React from 'react'
 import Banner from './Banner'
+import Footer from './Footer'
+
 import "./css/catalog.css"
 import wooden from "../wood";
 import { useNavigate } from 'react-router-dom';
@@ -54,7 +56,9 @@ export default function Woodentoys() {
             </div>
             
         </div>
+        <Footer></Footer>
       </div>
+     
     </div>
   )
 }

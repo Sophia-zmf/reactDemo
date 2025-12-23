@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addToCart, toggleCart } from '../store/modules/cartSlice';
 import goods from "../good";
-import wooden from "../wood";
+
 import Banner from './Banner';
 import "./css/product.css"
 import { useNavigate } from 'react-router-dom';
@@ -52,20 +52,34 @@ export default function Product() {
               <div className="xq">
                 <div className="xq-le">
                     <h2>Delivery Info</h2>
-                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy; it is based on a number of factors, including ad placement, demographic, even the consumer’s mood when they see your ad.</p>
-                    <h3>What’s a Rich Text element?</h3>
-                    <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.</p>
-                    <h4>Static and dynamic content editing</h4>
-                    <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. </p>
+                    <h4>Delivery Coverage</h4>
+                    <p>We provide delivery services to the 48 contiguous United States. For shipments to Alaska, Hawaii, Puerto Rico, and other U.S. territories, please contact customer service to confirm delivery feasibility and additional details.</p>
+                    <h4>Delivery Timeframes</h4>
                     <ul role="list">
-                        <li>Beautifully Designed</li>
-                        <li>100% Responsive</li>
-                        <li>CMS Content</li>
-                        <li>Smooth Animations</li>
+                        <li> Standard Shipping: Delivers in 3-5 business days with no extra expedited fees.</li>
+                        <li>Expedited Shipping: Arrives in 2-3 business days, requiring payment of an additional service fee.</li>
+                        <li>Express Shipping: Delivers in 1-2 business days, ideal for time-sensitive orders.</li>
+                        <li>Holiday Delivery: Delivery timeframes may be extended by 1-2 business days during major holidays (e.g., Thanksgiving, Christmas). Please refer to logistics notifications for the latest updates.</li>
+                        
                     </ul>
-                    <p>For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!</p>
-                    <h4>How to customize formatting for each rich text</h4>
-                    <p>Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the "When inside of" nested selector system.</p>
+
+                    <h4>Shipping Fees</h4>
+              
+                    <ul role="list">
+                        <li>Free Standard Shipping on orders with a subtotal of $79 or more (after discounts and before taxes).</li>
+                        <li>Orders under $79: Standard Shipping fee is $8.99; Expedited Shipping fee is $15.99; Express Shipping fee is $24.99.</li>
+                        <li>Additional surcharges apply to shipments to Alaska, Hawaii, and U.S. territories (varies by delivery location and package weight).</li>
+                        
+                    </ul>
+                    <h4>Shipment Tracking</h4>
+                    <p>Once your order is shipped, you will receive a confirmation email containing a tracking number. You can track the real-time delivery status of your package via the "My Orders" page on our official website, brand app, or by entering the tracking number on the logistics carrier’s website (e.g., USPS, UPS, FedEx).</p>
+                    <h4>Important Notes</h4>
+                    <ul role="list">
+                        <li>Please inspect the package’s exterior and the quantity of items upon delivery. If there is damage, missing items, or discrepancies, refuse acceptance and contact customer service immediately for assistance.</li>
+                        <li>To change the delivery address or scheduled delivery time, please contact customer service before the package is shipped. Modifications are not available once the package has been dispatched.</li>
+                        <li>All toy products are packaged with shockproof materials to ensure intact delivery. If you receive a defective or damaged item, you may request a return or exchange with your order number within the return window.</li>
+                        
+                    </ul>
                 </div>
                   
                 <div className="xq-ri" style={ys}>

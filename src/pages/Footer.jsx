@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
         <div className="cataPhoto">
             <div className="cataPhoto-words">
-                <p>@ElasticThemes</p>
+                <p>@toystore</p>
                 <h2>We're on Instagram!</h2>
             </div>
         
@@ -150,17 +150,13 @@ export default function Footer() {
                 </div>
                 <div className="foot-main-bottom">
                     <div className="foot-main-bottom-left">
-                        <span>Created with love by </span>
-                        <a href="https://elasticthemes.com" target="_blank" class="link-white">Elastic Themes</a>
+                        <span>Created with love by Toystore</span>
+                        {/* <a href="https://elasticthemes.com" target="_blank" class="link-white">Elastic Themes</a> */}
                     </div>
                     <div className="foot-main-bottom-center">
                         <span>Powered by </span>
-                        <a href="">Webflow</a>
-                        <span>-</span>
-                        <a href="">Style Guide</a>
-                      
-                        <span>-</span>
-                        <a href="">Licensing</a>
+                        <a href="">Toystore</a>
+                       
                     </div>
                 </div>
             </div>

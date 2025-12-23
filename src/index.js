@@ -11,8 +11,7 @@ import Catalog from './pages/Catalog';
 import Delivery from './pages/Delivery';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
-import Woodentoys from './pages/Woodentoys';
-import Stuffedanimals from './pages/Stuffedanimals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,8 +21,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/product/:id" element={<Product />}/>
       <Route path="/catalog" element={<Catalog />} />
-      <Route path="/catalog/wooden-toys" element={<Woodentoys />}/>
-      <Route path="/catalog/stuffed-animals" element={<Stuffedanimals />}/>
+     
       <Route path="/delivery" element={<Delivery />}/>
       <Route path="/about" element={<About />} />
       <Route path="/contacts" element={<Contacts />} />

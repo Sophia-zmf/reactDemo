@@ -99,7 +99,7 @@ export default function Contacts() {
                       value={formData.fullName}//受控组件核心：输入框的值
                       onChange={handleChange}//利用onChange事件更新输入框的值
                       error={errors.fullName}//错误状态
-                      helperText={errors.fullName? '请填写此字段' : ''}//错误提示
+                      helperText={errors.fullName? 'Please fill in this field' : ''}//错误提示
                       variant="outlined"//输入框样式
                       fullWidth//输入框宽度
                       sx={{
@@ -124,9 +124,9 @@ export default function Contacts() {
                       error={errors.email}
                       helperText={
                         errors.email === 'invalid'
-                         ? '请在电子邮件地址中包括“@”'
+                         ? 'Please include the @ symbol in your email address'
                           : errors.email
-                         ? '请填写此字段'
+                         ? 'Please fill in this field'
                           : ''
                       }
                       variant="outlined"
@@ -151,7 +151,7 @@ export default function Contacts() {
                       value={formData.message}
                       onChange={handleChange}
                       error={errors.message}
-                      helperText={errors.message? '请填写此字段' : ''}
+                      helperText={errors.message? 'Please fill in this field' : ''}
                       variant="outlined"
                       fullWidth
                       sx={{
@@ -194,14 +194,7 @@ export default function Contacts() {
               <div className="xq-ri addW">
                 <div className="addwT">
                   <h4>Contact Info</h4>
-                  <p>4293 Euclid Avenue, Los Angeles, CA 90012</p>
-                  <p>+1 213 974-3898</p>
-                  <a
-                    href="mailto:toystore@template.com?subject=ToyStore"
-                    className="link"
-                  >
-                    toystore@template.com
-                  </a>
+                 
                 </div>
                 <div className="addwB">
                   <h5>Follow Us</h5>

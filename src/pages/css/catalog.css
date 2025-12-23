@@ -50,3 +50,10 @@
     color: #fff;
     border-radius: 16px;
 }
+.list-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    margin-bottom: 50px;
+}
