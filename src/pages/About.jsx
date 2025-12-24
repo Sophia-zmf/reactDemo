@@ -8,7 +8,7 @@ export default function About() {
         <Banner />
         <div className="aboutMain">
             <div className="search">
-                <a href="/">Index</a>
+                <a href="/">Home</a>
                 <img
                     src="https://cdn.prod.website-files.com/5badda2935e11303a89a461e/5baf79eb570913b9781a96f2_arrow-right-mini-icon.svg"
                     alt=""
