@@ -3,7 +3,7 @@ const goods = [
     id: 1,
     title: "Teddy Bear",
     price: 30.0,
-    img: "https://cdn.prod.website-files.com/5baddb6a35e113da0e9a4802/5bae12942ca03553bf0d536c_33903-2-plush-toy-transparent-image-min.png",
+    img: "",
     text: "Our stuffed animals feature ultra-soft, non-toxic fabric and fluffy filling—gentle on kids’ skin for cozy cuddles. With vivid, fade-resistant colors, they spark imagination and offer comforting companionship for playtime and bedtime.",
     sku: 35009,
     width: 38,
